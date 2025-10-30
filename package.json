@@ -1,0 +1,21 @@
+{
+  "name": "woother",
+  "version": "1.0.0",
+  "description": "Prototypes Woother - gestion des serveurs statique, dynamique et en ligne",
+  "main": "index.js",
+  "scripts": {
+    "start:static": "node servers/static-server/server-static.js",
+    "start:dynamic": "node servers/dynamic-server/server-dynamic.js",
+    "start:online": "node servers/online-server/server-online.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ngrok": "^3.4.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.10"
+  },
+  "author": "Simon",
+  "license": "MIT"
+}
